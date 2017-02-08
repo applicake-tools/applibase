@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import glob
 
-import applicake.base.coreutils.info as infohandler
-from applicake.base.app import BasicApp
-from applicake.base.coreutils.arguments import Argument
-from applicake.base.apputils import dicts
-from applicake.base.coreutils.keys import Keys, KeyHelp
+import applicake2.base.coreutils.info as infohandler
+from applicake2.base.app import BasicApp
+from applicake2.base.coreutils.arguments import Argument
+from applicake2.base.apputils import dicts
+from applicake2.base.coreutils.keys import Keys, KeyHelp
 
 
 class Merge(BasicApp):

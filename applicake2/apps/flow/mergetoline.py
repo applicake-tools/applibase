@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import shutil
 
-from applicake.base import BasicApp
+from applicake2.base import BasicApp
 
 
 class MergeToLine(BasicApp):

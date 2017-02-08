@@ -3,11 +3,11 @@ import unittest
 
 import sys
 
-from applicake.base.apputils import dicts
-from applicake.base.coreutils.arguments import Argument, parse_sysargs
-from applicake.base.coreutils.log import Logger
-from applicake.base.coreutils.keys import Keys, KeyHelp
-from applicake.base.coreutils.info import get_handler
+from applicake2.base.apputils import dicts
+from applicake2.base.coreutils.arguments import Argument, parse_sysargs
+from applicake2.base.coreutils.log import Logger
+from applicake2.base.coreutils.keys import Keys, KeyHelp
+from applicake2.base.coreutils.info import get_handler
 
 class Test(unittest.TestCase):
     @classmethod

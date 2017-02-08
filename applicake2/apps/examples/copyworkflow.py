@@ -4,11 +4,11 @@ import sys
 
 from ruffus import *
 
-from applicake.apps.examples.cp import CpApp
-from applicake.apps.flow.merge import Merge
-from applicake.apps.flow.split import Split
-from applicake.base import Argument, Keys, KeyHelp, BasicApp
-from applicake.base.coreutils import IniInfoHandler
+from applicake2.apps.examples.cp import CpApp
+from applicake2.apps.flow.merge import Merge
+from applicake2.apps.flow.split import Split
+from applicake2.base import Argument, Keys, KeyHelp, BasicApp
+from applicake2.base.coreutils import IniInfoHandler
 
 
 @split("input.ini", "split.ini_*")

@@ -2,8 +2,8 @@ import os
 import shutil
 import subprocess
 
-from applicake.base.apputils import dirs,validation
-from applicake.base.coreutils import Keys
+from applicake2.base.apputils import dirs,validation
+from applicake2.base.coreutils import Keys
 
 
 def get_experiment_code(info):

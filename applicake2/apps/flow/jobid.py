@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from applicake.base import BasicApp, Argument, Keys, KeyHelp
+from applicake2.base import BasicApp, Argument, Keys, KeyHelp
 
 
 class Jobid(BasicApp):

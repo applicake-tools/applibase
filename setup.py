@@ -9,7 +9,7 @@ setup(
     maintainer_email=["blum@id.ethz.ch",'wewolski@gmail.com'],
     description="A framework that simplifies the wrapping of external tools by standardizing input parameters, logging messages and output streams.",
     license="BSD",
-    packages=['applicake'],
+    packages=['applicake2'],
     include_package_data=True,
     url='https://github.com/applicake-tools/applicake2',
     install_requires=[]

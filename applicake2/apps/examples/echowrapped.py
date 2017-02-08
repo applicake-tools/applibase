@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-from applicake.base import WrappedApp
-from applicake.base.coreutils import Argument
-from applicake.base.coreutils import Keys, KeyHelp
+from applicake2.base import WrappedApp
+from applicake2.base.coreutils import Argument
+from applicake2.base.coreutils import Keys, KeyHelp
 
 
 class EchoWrapped(WrappedApp):

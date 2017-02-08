@@ -5,13 +5,13 @@ import time
 import getpass
 import re
 
-from applicake.base.apputils import dirs
-from applicake.base.apputils import dicts
-from applicake.base.apputils import validation
-from applicake.base.coreutils.keys import Keys, KeyHelp
-from applicake.base.coreutils.log import Logger
-from applicake.base.coreutils.arguments import Argument, parse_sysargs
-from applicake.base.coreutils.info import get_handler
+from applicake2.base.apputils import dirs
+from applicake2.base.apputils import dicts
+from applicake2.base.apputils import validation
+from applicake2.base.coreutils.keys import Keys, KeyHelp
+from applicake2.base.coreutils.log import Logger
+from applicake2.base.coreutils.arguments import Argument, parse_sysargs
+from applicake2.base.coreutils.info import get_handler
 
 
 class IApp(object):

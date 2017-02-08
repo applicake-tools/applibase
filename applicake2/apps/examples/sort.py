@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import os
 
-from applicake.base.app import WrappedApp
-from applicake.base.apputils.dirs import create_workdir
-from applicake.base.apputils import validation
-from applicake.base.coreutils import Argument
-from applicake.base.coreutils import KeyHelp, Keys
+from applicake2.base.app import WrappedApp
+from applicake2.base.apputils.dirs import create_workdir
+from applicake2.base.apputils import validation
+from applicake2.base.coreutils import Argument
+from applicake2.base.coreutils import KeyHelp, Keys
 
 
 class SortApp(WrappedApp):

@@ -5,7 +5,7 @@ import tempfile
 import shutil
 from StringIO import StringIO
 
-from applicake.apps.examples.echowrapped import EchoWrapped
+from applicake2.apps.examples.echowrapped import EchoWrapped
 
 
 class Test(unittest.TestCase):
