@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name="applicake",
+    name="applicake2",
     version="0.0.8",
-    author="Lorenz Blum",
+    author=['Lorenz Blum', 'Witold Wolski'],
     maintainer=['Lorenz Blum', 'Witold Wolski'],
     author_email="blum@id.ethz.ch",
     maintainer_email=["blum@id.ethz.ch",'wewolski@gmail.com'],
@@ -11,6 +11,6 @@ setup(
     license="BSD",
     packages=['applicake'],
     include_package_data=True,
-    url='https://github.com/applicake-tools/applicake',
+    url='https://github.com/applicake-tools/applicake2',
     install_requires=[]
 )
